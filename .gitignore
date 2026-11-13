@@ -1,0 +1,19 @@
+# Eigene Daten, gehören nicht ins Repository
+*.xlsx
+~$*.xlsx
+.mailcheck-state.json
+log.txt
+Bewerbungsbaukasten.html
+*.bak-*
+
+# Zugangsdaten
+.jobsuche-mail.json
+.env
+
+# Umgebung
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
